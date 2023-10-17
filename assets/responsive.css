@@ -49,4 +49,28 @@
     .signum_list li h3 {
         font-size: 41px;
     }
+    .main_content h2 { 
+        font-size: 41px; 
+    }
+    .main_content > p { 
+        font-size: 12px; 
+    }
+    .content_p p { 
+        font-size: 14px; 
+    }
+    .content_btn p { 
+        font-size: 12px; 
+        line-height: 16px; 
+        max-width: 303px; 
+    }
+    .content_btn button {
+        max-width: 216px; 
+        font-size: 20px; 
+    }
+    .content_btn { 
+        margin-bottom: 45px;
+    }
+    .content_area { 
+        margin: 90px auto 0 auto; 
+    }
 }
