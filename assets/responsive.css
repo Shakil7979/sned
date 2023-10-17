@@ -1,0 +1,50 @@
+@media all and (max-width: 1400px){
+    .signum_title h2 { 
+        font-size: 90px; 
+    }
+    .signum_title p { 
+        font-size: 20px; 
+    }
+}
+
+
+@media all and (max-width: 1200px){
+    .signum_list li h3 { 
+        font-size: 50px; 
+    } 
+}
+
+@media all and (max-width: 991px){
+    .signum_title h2 { 
+        font-size: 64px; 
+        letter-spacing: 3.84px; 
+    }
+    .signum_title p {
+        font-size: 16px;
+        width: 90% !important;
+        margin-bottom: 0 !important;
+    }
+    
+}
+
+@media all and (min-width: 767px){
+    .m_none{
+        display: block !important;
+    }
+}
+
+@media all and (max-width: 767px){
+    .m_none{
+        display: none;
+    }
+    .d_none{
+        display: block;
+    } 
+    .signum_list li { 
+        flex: 0 0 100%; 
+        padding: 15px 0;
+    }
+    .signum_list li h3 {
+        font-size: 41px;
+    }
+}
