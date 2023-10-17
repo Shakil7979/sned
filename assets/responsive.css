@@ -9,7 +9,7 @@
 
 
 @media all and (max-width: 1200px){
-    .signum_list li h3 { 
+    .signum_list li button { 
         font-size: 50px; 
     } 
 }
@@ -40,9 +40,11 @@
     .d_none{
         display: block;
     } 
+    .signum_list li button{  
+        padding: 15px 0;
+    }
     .signum_list li { 
         flex: 0 0 100%; 
-        padding: 15px 0;
     }
     .signum_list li h3 {
         font-size: 41px;

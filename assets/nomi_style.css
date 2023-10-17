@@ -255,32 +255,16 @@
 
 
 .signum_list li {
-	background: #BC2C23;
-	flex: 0 0 50%;
+    flex: 0 0 50%;
+}
+.signum_list li button {
+	background: #BC2C23; 
 	height: 160px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 33px 0;
-}
-
-.signum_list li:nth-child(2){ 
-    background: #7923BC;
-}
-.signum_list li:nth-child(3){ 
-    background: #BC7623;
-}
-.signum_list li:nth-child(4){ 
-    background: #2369BC;
-}
-.signum_list li:nth-child(5){ 
-    background: #000;
-}
-.signum_list li:nth-child(6){ 
-    background: #008C1F;
-}
-
-.signum_list li h3 {
+    border: none;
 	color: #FFF;
 	text-align: center;
 	font-family: Work Sans;
@@ -289,7 +273,25 @@
 	font-weight: 900;
 	line-height: normal;
 	letter-spacing: 3.2px;
+    width: 100%;
+    cursor: pointer;
 }
+
+.signum_list li:nth-child(2) button{ 
+    background: #7923BC;
+}
+.signum_list li:nth-child(3) button{ 
+    background: #BC7623;
+}
+.signum_list li:nth-child(4) button{ 
+    background: #2369BC;
+}
+.signum_list li:nth-child(5) button{ 
+    background: #000;
+}
+.signum_list li:nth-child(6) button{ 
+    background: #008C1F;
+} 
 
 .signum_list li p {
 	color: #C1C1C1;
