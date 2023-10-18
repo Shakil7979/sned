@@ -73,4 +73,14 @@
     .content_area { 
         margin: 90px auto 0 auto; 
     }
+    .main_form h2 { 
+        font-size: 55px; 
+    }
+    .form_group label { 
+        font-size: 20px; 
+    }
+    .form_group input { 
+        font-size: 16px;
+        font-weight: 400;
+    }
 }
